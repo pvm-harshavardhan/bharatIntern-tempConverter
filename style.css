@@ -1,0 +1,94 @@
+*{
+    max-width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(road_between_green_and_brown_covered_mountain_and_green_grass_land_during_daytime_under_cloud_and_blue_sky_hd_nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+p{
+    font-size: 1.3rem;
+}
+select,button{
+    height:2rem;
+}
+button{
+    margin-top: 20px;
+    font: 2rem;
+}
+hr{
+    margin: 10px auto;
+    margin-bottom: 20px;
+    width: 200px;
+}
+#from-p,#to-p,.temp-set-first,.temp-set-second{
+    display: inline;
+}
+#from-p,.temp-set-first,#to-p{
+    margin-right: 10px;
+}
+select{
+    border-radius: 20px;
+    width: 150px;
+}
+.container{
+    margin: auto;
+    margin-top: 150px;
+    width: 500px;
+    border-radius: 50px;
+    padding: 20px 0;
+    background: linear-gradient(-45deg, #23d5ab, #23a6d5);
+    box-shadow: 0 0 20px black ,0 0 20px black ,0 0 20px black ;
+}
+#enter-input{
+    margin: 20px auto ;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+input{
+    border-radius: 20px;
+    margin: auto 20px;
+    width: 150px;
+    height: 1.5rem;
+}
+button{
+    width: 90px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+button:hover,select:hover,input:hover{
+    background-color: black;
+    color: white;
+}
+.invisible{
+    opacity: 0;
+}
+#Result, #output{
+    display: inline;
+}
+.output-box{
+    margin-top: 10px;
+}
+#output{
+    background: transparent;
+    border: none;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    width: 150px;
+    color: rgb(183, 31, 31);
+}
+.hot{
+    background-image: url(warm.jpg);
+}
+.ice{
+    background-image: url(mountain_snow.jpg);
+}
+.cold{
+    background-image: url(blue-sky-and-green-land.jpg);
+}
